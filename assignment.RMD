@@ -28,7 +28,7 @@ quizz_data <- quizz_data[non_empty_cols]
 ```
 
 
-We split our data set into a training set and a testing set:
+We split our data set into a training set and a testing set (can be called cross validation set here):
 
 ```{r}
 library(caret)
